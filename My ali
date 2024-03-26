@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Girlfriend's Website</title>
+    <style>
+        body {
+            margin: 8;
+            padding: 0;
+            font-family: 'Open Sans', sans-serif;
+            background: linear-gradient(to bottom, #0099cc, #00ccff);
+        }
+
+        .container {
+            width: 85%;
+            margin: auto;
+            overflow: hidden;
+            padding-top: 20px;
+        }
+
+        header {
+            background: #333;
+            height: 90px;
+            text-align: center;
+        }
+
+        header a {
+            text-decoration: none;
+            color: white;
+            text-transform: uppercase;
+            line-height: 90px;
+            font-size: 25px;
+            padding: 0 10px;
+        }
+
+        header a:hover {
+            color: skyblue;
+            text-shadow: 1px 1px 1px white;
+        }
+
+        .col {
+            display: inline-block;
+            width: 32%;
+            margin: 15px 1%;
+        }
+
+        .col img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .col h1 {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .col h2 {
+            text-align: right;
+            color: #333;
+            font-size: 16px;
+            padding-right: 10px;
+        }
+
+        .col p {
+            text-align: justify;
+            padding: 10px 10px;
+            line-height: 24px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </header>
+        <div class="col">
+            <img src="girlfriend-image.jpg" alt="Your girlfriend's image">
+            <h1>Zenith</h1>
+            <h2>I love you so much zen you mean thr world to me</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend tellus ut hendrerit ultricies. In venenatis, sem pharetra malesuada
+                dictum, mi lorem semper nisl, in efficitur sem velit blandit elit.
+            </p>
+        </div>
+        <div class="col">
+            <img src="friend-image.jpg" alt="Your friend's image">
+            <h1>Friend</h1>
+            <h2>A few words about your friend!</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend tellus ut hendrerit ultricies. In venenatis, sem pharetra malesuada
+                dictum, mi lorem semper nisl, in efficitur sem velit blandit elit.
+            </p>
+        </div>
+        <div class="col">
+            <img src="relative-image.jpg" alt="Your relative's image">
+            <h1>Relative</h1>
+            <h2>A few words about your relative!</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend tellus ut hendrerit
